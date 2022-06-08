@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Entre em contato</legend><br>
+
+            <label for="contactsubject">Assunto*</label>
+            <select name="contactsubject" id="contactsubject" list="subjectlist" title="Informe o motivo do contato" autofocus required>
+            <datalist id="subjectlist">
+                <option value="">Suporte</option>
+                <option value="">Reclamação</option>
+                <option value="">Sugestão</option>
+            </datalist>
+        </select><br><br>
+                
+                
+                
+            <label for="contactname">Nome Completo*</label><br>
+            <input type="text" id="contactname" name="contact" placeholder="Seu nome" title="Digite seu nome completo" required>
+            <br><br>
+
+            <label for="contactsocialname">Nome Social</label><br>
+            <input type="text" id="contactsocialname" name="contact" placeholder="Nome social" title="Se houver, nos informe o seu nome social"><br><br>
+
+            <label for="contactemail">Email*</label><br>
+            <input type="email" name="contact" id="contactemail" placeholder="email@seudomínio.com" title="Digite seu e-mail" required>
+            <br><br>
+
+            <label for="contactmessage">Mensagem*</label><br>
+            <textarea name="contact" id="contactmessage" cols="30" rows="10" title="Escreva sua mensagem" placeholder="Escreva sua mensagem aqui.." required></textarea><br>
+
+            <input type="checkbox" id="feed" name="contact" checked>
+            <label for="feed">Aceito receber mensagens por e-mail</label> <br><br>
+
+        <button type="submit">Enviar</button>
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
+            
